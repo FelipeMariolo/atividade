@@ -1,0 +1,6 @@
+salario = input("digite o salario: ")
+valor_do_salario = float(salario)
+porcentagem = input("digite a porcentagem:" )
+valor_da_porcentagem = float(porcentagem)
+total =(valor_do_salario/valor_da_porcentagem)*100
+print (total)
